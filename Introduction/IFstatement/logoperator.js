@@ -81,9 +81,9 @@
 
 // console.log(high);
 
-let x = 7;
+let x = 2;
 let z = 3;
-let y = 4;
+let y = 7;
 let vidurkis = (x + y + z) / 3;
 {
   console.log(vidurkis);
