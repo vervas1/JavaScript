@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a3a3a3;
+}
+
+.block-wrapper {
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 35px;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+}
+
+.info-wrapper .input-wrapper {
+  margin: 10px;
+}
+/* sudeda i naujas eilutes */
+.info-wrapper .input-wrapper > * {
+  display: block;
+}
+.info-wrapper .input-wrapper input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 7px;
+}
+.info-wrapper button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
