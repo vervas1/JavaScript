@@ -27,7 +27,53 @@ body {
   box-sizing: border-box;
   margin-top: 7px;
 }
+
+/* kai ismeta errora, backgroundas tampa raudonas */
+.info-wrapper .input-wrapper input.error {
+  border-color: rgba(255, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.info-wrapper .input-wrapper span.error {
+  color: red;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* Jeigu error neturi klases show, tada nieko neatvaizduojame */
+.info-wrapper .input-wrapper span.error:not(.show) {
+  display: none;
+}
+
 .info-wrapper button {
   padding: 5px 10px;
   cursor: pointer;
+}
+
+/* kai ismeta errora, backgroundas tampa raudonas */
+.info-wrapper .input-wrapper input.error1 {
+  border-color: rgba(255, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.info-wrapper .input-wrapper span.error1 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.info-wrapper .input-wrapper span.error1:not(.show) {
+  display: none;
+}
+
+.info-wrapper .input-wrapper input.error2 {
+  border-color: rgba(255, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.info-wrapper .input-wrapper span.error2 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.info-wrapper .input-wrapper span.error2:not(.show) {
+  display: none;
 }

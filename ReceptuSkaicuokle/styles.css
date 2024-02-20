@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 30px auto;
+  padding: 20px 35px;
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+}
+
+.receptai {
+  background-color: white;
+}
+
+.aprasymai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider input {
+  width: 40%;
+  height: 2px;
+  background: #2b2929;
+}
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  color: rgba(95, 82, 82, 0.504);
+}
